@@ -18,10 +18,12 @@ Tubes/
 │   ├── Pipeline_Preprocessing_Bulan2.ipynb  <- Cleaning + Normalisasi
 │   ├── basic_cleaning.py          <- Script cleaning (bisa dirun terpisah)
 │   └── dataset_cleaned.xlsx       <- Output cleaning
-└── Bulan 3/
-    ├── Domain_Specific_Labeling.ipynb  <- Keyword-based Labeling
-    ├── Validation.ipynb                <- Validasi manual 100 sampel
-    └── dataset_labeled_bulan3.xlsx     <- Output labeling
+├── Bulan 3/
+│   ├── Domain_Specific_Labeling.ipynb  <- Keyword-based Labeling
+│   ├── Validation.ipynb                <- Validasi manual 100 sampel
+│   └── dataset_labeled_bulan3.xlsx     <- Output labeling
+└── Bulan 4/
+    └── Perbandingan_Model.ipynb        <- Pengujian model ML (Binary & Multi-class)
 ```
 
 **Alur data:** `Gabungan.xlsx` -> Bulan 1 (Profiling) -> Bulan 2 (Cleaning) -> Bulan 3 (Labeling & Validasi)
